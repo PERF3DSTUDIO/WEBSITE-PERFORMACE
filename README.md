@@ -1,141 +1,112 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Performance 3D Company Studio</title>
+  <title>The Urzikcstrom Corporation</title>
   <style>
     body {
       margin: 0;
+      padding: 0;
+      background-color: #0a0a0a;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #ffffff;
-      background: #000000;
-      background-image: radial-gradient(at 20% 20%, rgba(173, 216, 230, 0.25), transparent),
-                        radial-gradient(at 80% 30%, rgba(255, 228, 196, 0.2), transparent),
-                        radial-gradient(at 50% 80%, rgba(221, 160, 221, 0.2), transparent);
-      background-repeat: no-repeat;
-      background-size: cover;
+      color: #e0e0e0;
     }
+
     .container {
-      max-width: 960px;
+      max-width: 1000px;
       margin: auto;
       padding: 40px 20px;
     }
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    header img {
-      width: 180px;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin: 0.3em 0;
-    }
-    p {
-      line-height: 1.7;
-      font-size: 1.1em;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      color: #FF6361;
+
+    h1, h2 {
+      color: #89CFF0; /* biru muda */
       margin-bottom: 10px;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
+
+    .section {
+      background-color: rgba(30, 30, 30, 0.8);
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 35px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
-    ul li::before {
-      content: "✔ ";
-      color: #FF6361;
+
+    p {
+      color: #cccccc;
+      line-height: 1.7;
     }
-    .cta {
-      text-align: center;
-      margin-top: 50px;
+
+    strong {
+      color: white;
     }
-    .cta a {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #FF6361;
-      color: #ffffff;
+
+    a {
+      color: #89CFF0;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
-      margin-top: 60px;
+      padding: 20px 0;
+      color: #777;
+      border-top: 1px solid #333;
       font-size: 0.9em;
-      color: #999;
-    }
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.8em;
-      }
     }
   </style>
 </head>
 <body>
+
   <div class="container">
-    <header>
-      <img src="logo.png" alt="Performance 3D Logo" />
-      <h1>PERFORMANCE 3D COMPANY STUDIO</h1>
-    </header><section>
-  <p>
-    Performance 3D Company Studio adalah sebuah studio kreatif digital yang berfokus pada pengembangan animasi 3D,
-    visual sinematik, dan desain modeling realistis berkualitas tinggi. Kami percaya bahwa setiap detail memiliki
-    kekuatan untuk menyampaikan cerita yang kuat, emosional, dan berkesan.
-  </p>
-  <p>
-    Dengan menggabungkan teknologi terkini dan sentuhan artistik yang gelap, unik, dan penuh karakter,
-    kami menghadirkan dunia digital yang hidup — mulai dari karakter 3D kompleks, environment sinematik,
-    hingga proyek visual untuk keperluan film, game, hingga promosi brand.
-  </p>
-  <p>
-    Berbasis pada semangat eksplorasi dan presisi teknis, tim kami terdiri dari kreator muda yang siap menghadirkan
-    karya dengan kualitas tinggi yang dapat bersaing secara global.
-  </p>
-</section>
 
-<section>
-  <h2>Layanan Kami</h2>
-  <ul>
-    <li>Environment & Scene Building</li>
-    <li>Cinematic Animation</li>
-    <li>Visual Branding & Identity</li>
-    <li>Unik & Original</li>
-    <li>Kualitas Tinggi, Detail Maksimal</li>
-    <li>Komitmen & Profesionalisme</li>
-  </ul>
-</section>
+    <div class="section">
+      <h1>Welcome to The Urzikcstrom Corporation</h1>
+      <p>Tempat di mana ide-ide visual dan animasi 3D berkembang jadi karya nyata. Kami bukan perusahaan besar, tapi kami serius bikin sesuatu yang beda. Kami bergerak di bidang <strong>desain karakter</strong>, <strong>environment</strong>, <strong>animasi 3D</strong>, dan <strong>visual storytelling</strong>.</p>
+    </div>
 
-<section>
-  <h2>Konten & Sosial Media</h2>
-  <p>
-    Kami juga aktif membagikan karya dan proses kreatif kami melalui platform digital.
-    Di saluran YouTube dan TikTok kami, Anda dapat menyaksikan behind-the-scenes pembuatan animasi,
-    showcase proyek, dan tips kreatif dari tim kami.
-  </p>
-  <p>
-    <strong>YouTube:</strong>
-    <a href="https://www.youtube.com/@Performance_Stu" style="color: #ffffff;">@Performance_Stu</a><br />
-    <strong>TikTok:</strong>
-    <a href="https://www.tiktok.com/@performa_3d_co?_t=ZS-8yJkgL5dgtW&_r=1" style="color: #ffffff;">
-      @performa_3d_co
-    </a>
-  </p>
-</section>
+    <div class="section">
+      <h2>Gaya Karya Kami</h2>
+      <p>Kami suka bikin karya yang unik, penuh detail, dan punya suasana yang kuat. Entah itu dunia modern, militer, teknologi, atau hal-hal fiksi visual, kami coba tuangkan lewat model dan animasi 3D.</p>
+    </div>
 
-<div class="cta">
-  <p>Punya ide gila? Proyek mimpi? Atau ingin sekadar bertanya?</p>
-  <a href="mailto:performance3dcompanystudio@gmail.com">Hubungi Kami</a>
-</div>
+    <div class="section">
+      <h2>Apa Saja yang Kami Buat?</h2>
+      <p><strong>Desain Lingkungan</strong><br />
+      Kami juga membangun tempat-tempat digital: mulai dari kota, markas, lorong, hutan, sampai lokasi fiktif yang bisa bikin penonton tenggelam dalam suasana.</p>
+      
+      <p><strong>Animasi & Konten</strong><br />
+      Kami bikin animasi pendek, teaser, cuplikan, atau konten bergaya sinematik — bisa untuk YouTube, TikTok, atau presentasi.</p>
+    </div>
 
-<footer>
-  &copy; 2025 Performance 3D Company Studio. All rights reserved.
-</footer>
+    <div class="section">
+      <h2>Misi Kami</h2>
+      <p>Kami ingin memperkenalkan karya visual yang keren dan beda, tapi tetap gampang dinikmati. Kami juga terbuka untuk kolaborasi dan eksplorasi gaya baru.</p>
+    </div>
+
+    <div class="section">
+      <h2>Ikuti Kami</h2>
+      <p>Lihat update terbaru dari proyek, konten, dan karakter buatan kami:</p>
+      <p>
+        📍 YouTube: <a href="https://www.youtube.com/@Urzikcstrom_Co30" target="_blank">https://www.youtube.com/@Urzikcstrom_Co30</a><br />
+        📍 TikTok: (COMINGSOON)
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Kontak</h2>
+      <p>Punya ide? Mau kolaborasi? Atau cuma pengen kenalan?</p>
+      <p>📩 Email: <strong>urzikcstromcorporation@gmail.com</strong></p>
+    </div>
 
   </div>
+
+  <footer>
+    &copy; 2025 The Urzikcstrom Corporation. All rights reserved.
+  </footer>
+
 </body>
 </html>
