@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Andy Corporation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0d0d0d;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1, h2 {
+      background: linear-gradient(to right, #add8e6, #f5deb3, #dda0dd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .section-bg {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+      padding: 20px 0;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section-bg">
+      <h1>Selamat Datang di The Andy Corporation</h1>
+      <p>Kami adalah perusahaan yang bergerak di bidang teknologi kreatif dan inovatif, membangun solusi yang modern dan efisien untuk kebutuhan masa depan.</p>
+    </div>
+
+    <div class="section-bg">
+      <h2>Tentang Kami</h2>
+      <p>The Andy Corporation didirikan dengan tujuan menghadirkan produk dan layanan terbaik yang memadukan teknologi, desain, dan efisiensi. Kami percaya bahwa masa depan dibangun oleh kreativitas dan semangat untuk berkembang.</p>
+    </div>
+
+    <div class="section-bg">
+      <h2>Produk Kami</h2>
+      <p>Kami menawarkan beragam produk, mulai dari aplikasi digital, sistem otomatisasi, hingga solusi desain dan teknologi visual. Setiap produk dirancang untuk memberikan pengalaman maksimal bagi pengguna.</p>
+    </div>
+
+    <div class="section-bg">
+      <h2>Saluran & Kontak</h2>
+      <p
