@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Performance 3D Company Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #000000;
+      background-image: radial-gradient(20% 20%, rgb(255, 228, 196, 0.1), transparent),
+                        radial-gradient(50% 60%, rgba(173, 216, 230, 0.2), transparent),
+                        radial-gradient(80% 60%, rgba(255, 192, 203, 0.15), transparent);
+      background-size: cover;
+      color: #eee;
+    }
+    header {
+      text-align: center;
+      margin: 80px auto 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0.3em 0;
+      line-height: 1.2;
+    }
+    p {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    a.logo {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #FF6361;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 60px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Performance 3D Logo</a>
+    <h1>PERFORMANCE 3D COMPANY STUDIO</h1>
+  </header>
+
+  <p>
+    Performance 3D Company Studio adalah sebuah studio kreatif digital yang berfokus pada pengembangan animasi 3D, visual, dan desain inovatif, sinematik, dan mendalam. Kami percaya bahwa setiap detail memiliki kekuatan untuk menyampaikan cerita yang kuat, emosional, dan berkesan.
+  </p>
+
+  <p>
+    Dengan menggabungkan teknologi terkini dan sentuhan artistik yang gelap, unik, dan penuh karakter, kami menghadirkan dunia yang hidup — mulai dari karakter 3D kompleks, environment sinematik, hingga proyek visual untuk keperluan film, game, hingga konten digital.
+  </p>
+
+  <p>
+    Berbasis pada semangat eksplorasi dan presisi teknis, tim kami terdiri dari kreator muda yang siap menghadirkan karya dengan kualitas tinggi untuk pasar internasional.
+  </p>
+
+  <footer>
+    &copy; 2025 Performance 3D Company Studio. All rights reserved.
+  </footer>
+</body>
+</html>
