@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Performance 3D Company Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #000000; /* Latar belakang hitam pekat */
+      color: #f5f5f5;
+    }
+
+    container {
+      max-width: 960px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header img {
+      width: 160px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin: 0;
+      color: #ffcc66;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6em;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <container>
+    <header>
+      <img src="logo.png" alt="Logo Performance 3D Studio" />
+      <h1>PERFORMANCE 3D COMPANY STUDIO</h1>
+    </header>
+
+    <p>
+      Performance 3D Company Studio adalah sebuah studio kreatif digital yang berfokus pada pengembangan animasi 3D, visual sinematik, dan desain imajinatif. Kami percaya bahwa setiap detail memiliki kekuatan untuk menyampaikan cerita yang mendalam, emosional, dan berkesan.
+    </p>
+
+    <p>
+      Dengan menggabungkan teknologi terkini dan sentuhan artistik yang gelap, unik, dan penuh karakter, kami menghadirkan karya hidup — mulai dari karakter 3D kompleks, environment sinematik, hingga proyek visual untuk keperluan film, game, hingga animasi.
+    </p>
+
+    <p>
+      Berbasis pada semangat eksplorasi dan presisi teknis, tim kami terdiri dari kreator muda yang siap menghadirkan karya otentik untuk dunia digital masa kini.
+    </p>
+
+    <footer>
+      &copy; 2025 Performance 3D Company Studio
+    </footer>
+  </container>
+</body>
+</html>
